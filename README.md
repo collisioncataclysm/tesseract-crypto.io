@@ -72,5 +72,5 @@ If we decide to make a clean reboot of the blockchain without the burden of a pr
 
 Tesseract is intended to be an equity blockchain, enabling this issuance and distributed trading of security tokens.
 Recognizing that the mainstream financial securities industry will take some time before a blockchain is trusted with corporate financial instruments we believe it will be essential to demonstrate real use cases in other domains.
-The [Meridion](Meridion.md) governance system provides a salient example by issuing shares in projects rather than companies.
+The [Meridion](https://cryptotechguru.github.io/Cryptonomicon/Projects/Meridion.html) governance system provides a salient example by issuing shares in projects rather than companies.
 Once the basic API for issuing and trading shares is in place it will be feasible to expand into other kinds of non-fungible tokens.
