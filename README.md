@@ -7,10 +7,10 @@
 The codebase is forked from [Bitcoin 0.16.3](https://github.com/bitcoin/bitcoin/releases/tag/v0.16.3). Like Equibit this blockchain has a different genesis block which makes it an alt-coin rather than a hard fork of bitcoin like [BCH](https://www.bitcoincash.org/) and [BSV](https://bitcoinsv.io/).
 
 Besides the rebranding, Tesseract implemented some major modifications to Bitcoin:
-* The block subsidy follows a logistic (sigmoidal) curve rather than exponential decay (halving)
+* The block subsidy follows a sinusoidal (sigmoidal) curve rather than exponential decay (halving)
 * The difficulty re-targeting algorithm was replace with [Dark Gravity Wave](https://coinguides.org/dark-gravity-wave/)
 * SHA-256 hash was replaced by [SHA-3](https://en.wikipedia.org/wiki/SHA-3)
-* A pre-mine of approximately 1.3 million coins increases the cap to about 22 million coins total
+* A pre-mine of 1 million coins yielding a cap of exactly 21 million coins total
 
 ## SHA-3
 
@@ -39,23 +39,15 @@ Rebranding to Tesseract is in progress.
 
 ## Block Explorer
 
-In the final few weeks of development Equibit [forked](https://github.com/Equibit/explorer) the [inquidus block explorer](https://github.com/iquidus/explorer) and customized the branding:
-
-![inquidus](https://i.imgur.com/a91wif6.png)
-
-A version was running against testnet but was never finished (it does not yet display transactions).
-
-We could rebrand again and fix the remaining bugs, or a better solution might be to fork the new [esplora](https://github.com/Blockstream/esplora) block explorer from [Blockstream](https://blockstream.info/).
-
+TBD
 
 ## Stats Site
 
-Alpha-tester Jorgeminator is running a customized version of Equibit node that integrates [Jameson Lopp](https://twitter.com/lopp)'s [statoshi](https://statoshi.info/) mods. 
+Alpha-tester Jorgeminator contributed a mod that integrates [Jameson Lopp](https://twitter.com/lopp)'s [statoshi](https://statoshi.info/) mods. 
 He runs a [Grafana](http://docs.grafana.org/) site that uses these mods to generate essential blockchain stats in a very readable format:
 
-![statsy](https://i.imgur.com/jWGSHD1.png)
+![image](https://user-images.githubusercontent.com/434644/116793714-51419180-aa96-11eb-8488-50c0a53ce126.png)
 
-We should merge the statoshi mods into the master branch and run an official stats site.
 
 ## Wallet
 
@@ -65,10 +57,6 @@ To gain wider adoption we will need a GUI wallet, or to integrate with existing 
 ##  Difficulty Control System
 
 It may be possible to improve on the Dark Gravity Wave difficulty re-targeting algorithm by applying control system theory, specifically a discrete [PID](https://en.wikipedia.org/wiki/PID_controller) controller calibrated to optimize dynamic response metrics.
-
-## Sinusoidal Block Subsidy Schedule
-
-If we decide to make a clean reboot of the blockchain without the burden of a pre-mine it would be a good opportunity to revisit the subsidy schedule algorithm. A sinusoidal has all the advantages of the logistic curve with some additional nice properties related to the integral (total supply cap).
 
 ## Securities
 
