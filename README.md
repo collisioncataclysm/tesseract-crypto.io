@@ -31,16 +31,6 @@ There are two exceptions to the rule for backwards compatibility:
 * Base58Check (legacy address format)
 * TOR protocol checksum (external standard)
 
-# Futures
-
-## Rebranding
-
-Rebranding to Tesseract is in progress.
-
-## Block Explorer
-
-TBD
-
 ## Stats Site
 
 Alpha-tester Jorgeminator contributed a mod that integrates [Jameson Lopp](https://twitter.com/lopp)'s [statoshi](https://statoshi.info/) mods. 
@@ -48,6 +38,13 @@ He runs a [Grafana](http://docs.grafana.org/) site that uses these mods to gener
 
 ![image](https://user-images.githubusercontent.com/434644/116793714-51419180-aa96-11eb-8488-50c0a53ce126.png)
 
+The Tesseract public stats site can be accessed at: http://stats.tesseract-crypto.io/
+
+# Futures
+
+## Block Explorer
+
+TBD
 
 ## Wallet
 
