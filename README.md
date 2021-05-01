@@ -7,10 +7,10 @@
 The codebase is forked from [Bitcoin 0.16.3](https://github.com/bitcoin/bitcoin/releases/tag/v0.16.3). Like Equibit this blockchain has a different genesis block which makes it an alt-coin rather than a hard fork of bitcoin like [BCH](https://www.bitcoincash.org/) and [BSV](https://bitcoinsv.io/).
 
 Besides the rebranding, Tesseract implemented some major modifications to Bitcoin:
-* The block subsidy follows a sinusoidal (sigmoidal) curve rather than exponential decay (halving)
+* The block subsidy follows a sinusoidal curve rather than exponential decay (halving)
 * The difficulty re-targeting algorithm was replace with [Dark Gravity Wave](https://coinguides.org/dark-gravity-wave/)
 * SHA-256 hash was replaced by [SHA-3](https://en.wikipedia.org/wiki/SHA-3)
-* A pre-mine of 1 million coins yielding a cap of exactly 21 million coins total
+* A testnet pre-mine of 1 million coins yielding a cap of exactly 21 million coins total
 
 ## SHA-3
 
