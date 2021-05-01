@@ -1,6 +1,6 @@
 # Tesseract (TSR)
 
-![image](https://user-images.githubusercontent.com/434644/116793617-ba74d500-aa95-11eb-8f31-33f52ae15b32.png)
+![image](tsr-logo.png)
 
 [Tesseract](https://github.com/cryptotechguru/tesseract) a new blockchain forked from OCEAN (which was forked from Equibit which was forked from Bitcoin).
 
