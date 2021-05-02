@@ -44,10 +44,6 @@ The public [Grafana](http://stats.tesseract-crypto.io/) site uses these mods to 
 
 # Futures
 
-## Block Explorer
-
-TBD
-
 ## Wallet
 
 The core node software inherits a fully functional wallet that is accessible via the command line and RPC calls.
