@@ -31,6 +31,10 @@ There are two exceptions to the rule for backwards compatibility:
 * Base58Check (legacy address format)
 * TOR protocol checksum (external standard)
 
+## Block Exporer
+
+* [Open Chains](https://openchains.info/coin/tesseract/blocks)
+
 ## Stats Site
 
 Alpha-tester Jorgeminator contributed a mod that integrates [Jameson Lopp](https://twitter.com/lopp)'s [statoshi](https://statoshi.info/) mods. 
